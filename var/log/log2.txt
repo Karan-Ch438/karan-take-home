@@ -1,0 +1,20 @@
+2024-11-30 09:00:00 INFO Application startup sequence initiated
+2024-11-30 09:00:01 DEBUG Loading configuration from config.yaml
+2024-11-30 09:00:02 INFO Configuration loaded successfully
+2024-11-30 09:00:03 INFO Connecting to Redis cache server
+2024-11-30 09:00:04 INFO Redis connection established
+2024-11-30 09:00:05 INFO Starting worker threads (count: 4)
+2024-11-30 09:00:06 DEBUG Worker thread 1 started
+2024-11-30 09:00:07 DEBUG Worker thread 2 started
+2024-11-30 09:00:08 DEBUG Worker thread 3 started
+2024-11-30 09:00:09 DEBUG Worker thread 4 started
+2024-11-30 09:00:10 INFO All worker threads active
+2024-11-30 09:01:00 INFO Processing batch job: data_sync
+2024-11-30 09:02:00 WARNING API rate limit approaching (450/500)
+2024-11-30 09:03:00 ERROR Failed to write to log file: permission denied
+2024-11-30 09:03:01 INFO Falling back to alternate log location
+2024-11-30 09:04:00 INFO Hourly statistics: requests=1523, errors=12
+2024-11-30 09:05:00 DEBUG Memory usage: 2.3GB / 8GB
+2024-11-30 09:06:00 INFO Automatic garbage collection triggered
+2024-11-30 09:07:00 INFO Database connection pool status: 8/10 connections active
+2024-11-30 09:08:00 WARNING Slow query detected: SELECT * FROM users (3.2s)

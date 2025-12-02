@@ -1,0 +1,20 @@
+2024-11-30 11:00:00 [apache] 192.168.1.10 - - [30/Nov/2024:11:00:00 +0000] "GET /index.html HTTP/1.1" 200 5432
+2024-11-30 11:00:01 [apache] 192.168.1.11 - - [30/Nov/2024:11:00:01 +0000] "POST /api/login HTTP/1.1" 200 256
+2024-11-30 11:00:02 [apache] 192.168.1.12 - - [30/Nov/2024:11:00:02 +0000] "GET /static/css/style.css HTTP/1.1" 304 0
+2024-11-30 11:00:03 [apache] 192.168.1.13 - - [30/Nov/2024:11:00:03 +0000] "GET /api/users HTTP/1.1" 401 128
+2024-11-30 11:00:04 [apache] ERROR: mod_ssl: SSL handshake failed for client 192.168.1.14
+2024-11-30 11:00:05 [apache] 192.168.1.15 - - [30/Nov/2024:11:00:05 +0000] "GET /admin/dashboard HTTP/1.1" 403 256
+2024-11-30 11:00:06 [apache] WARNING: MaxRequestWorkers reached, consider raising the limit
+2024-11-30 11:00:07 [apache] 192.168.1.16 - - [30/Nov/2024:11:00:07 +0000] "GET /api/products HTTP/1.1" 200 10234
+2024-11-30 11:00:08 [apache] 192.168.1.17 - - [30/Nov/2024:11:00:08 +0000] "DELETE /api/session HTTP/1.1" 204 0
+2024-11-30 11:00:09 [apache] INFO: Graceful restart initiated by SIGUSR1
+2024-11-30 11:00:10 [apache] 192.168.1.18 - - [30/Nov/2024:11:00:10 +0000] "GET /health HTTP/1.1" 200 15
+2024-11-30 11:00:11 [apache] 192.168.1.19 - - [30/Nov/2024:11:00:11 +0000] "PUT /api/user/profile HTTP/1.1" 200 512
+2024-11-30 11:00:12 [apache] ERROR: [client 192.168.1.20:54321] File does not exist: /var/www/html/favicon.ico
+2024-11-30 11:00:13 [apache] 192.168.1.21 - - [30/Nov/2024:11:00:13 +0000] "GET /api/search?q=laptop HTTP/1.1" 200 4096
+2024-11-30 11:00:14 [apache] WARNING: Server reaching MaxClients limit
+2024-11-30 11:00:15 [apache] 192.168.1.22 - - [30/Nov/2024:11:00:15 +0000] "POST /api/order HTTP/1.1" 201 384
+2024-11-30 11:00:16 [apache] INFO: SSL certificate renewed successfully
+2024-11-30 11:00:17 [apache] 192.168.1.23 - - [30/Nov/2024:11:00:17 +0000] "GET /robots.txt HTTP/1.1" 200 128
+2024-11-30 11:00:18 [apache] 192.168.1.24 - - [30/Nov/2024:11:00:18 +0000] "GET /sitemap.xml HTTP/1.1" 200 8192
+2024-11-30 11:00:19 [apache] INFO: Log rotation completed, old logs archived
