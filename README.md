@@ -4,7 +4,7 @@ A high-performance REST API service for monitoring and fetching logs from Unix-b
 
 ## 🚀 Quick Start
 
-**Starting from scratch?** See [**QUICK_START.md**](QUICK_START.md) for complete setup and testing guide
+**Starting from scratch?** See [**QUICK_START.md**](additional_documentation/QUICK_START.md) for complete setup and testing guide
 
 ## ✨ Features
 
